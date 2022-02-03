@@ -48,9 +48,32 @@
   background-color: #61dafb;
   border: solid black 2px;
   border-radius: 8px;
-  height: 130px;
+  height: 250px;
   width: 200px;
+  display: block;
+  margin: 20px;
+}
+
+img {
+  width: 140px;
+  height: 100px;
+  border-radius: 8px;
+}
+
+.show-list {
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  align-items: center;
+  margin: 20px;
+}
+
+.show {
+  background-color: #61dafb;
+  border: solid black 2px;
+  border-radius: 8px;
+  height: 200px;
+  width: 320px;
+  display: block;
   margin: 20px;
 }

@@ -5,5 +5,6 @@ export default function CarsList({ cars }) {
     <p>{car.year}</p>
     <p>{car.make} {car.model}</p>
     <p>{car.type}</p>
+    <img src={car.image} />
   </div>);
 }

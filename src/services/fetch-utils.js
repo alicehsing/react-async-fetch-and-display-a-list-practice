@@ -8,3 +8,10 @@ export async function getCars() {
 
   return checkError(response);
 }
+
+export async function getTVShows() {
+  const response = await client
+    .from('Netflix TV Shows')
+    .select();
+  return checkError(response);
+}
