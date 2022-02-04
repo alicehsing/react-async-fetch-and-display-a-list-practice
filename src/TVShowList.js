@@ -7,7 +7,7 @@ export default function TVShowList({ shows }) {
         shows.map(({
           name,
           type,
-          watched_hours,
+          // watched_hours,
           launch_date,
           number_of_season,
           lead_actors
