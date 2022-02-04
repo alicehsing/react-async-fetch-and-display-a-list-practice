@@ -15,3 +15,18 @@ export async function getTVShows() {
     .select();
   return checkError(response);
 }
+
+
+export async function getCandies() {
+  const response = await client
+    .from('candies')
+    .select();
+  return checkError(response);
+}
+
+export async function getPlants() {
+  const response = await client
+    .from('house_plants')
+    .select();
+  return checkError(response);
+}

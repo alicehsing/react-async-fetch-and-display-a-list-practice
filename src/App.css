@@ -38,20 +38,22 @@
 }
 
 .car-list{
-  background-color: antiquewhite;
+  background-color: #e9edc9;
+  /* background-color: antiquewhite; */
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin: 20px;
 }
 .car {
-  background-color: #61dafb;
+  background-color: #333d29;
   border: solid black 2px;
   border-radius: 8px;
   height: 250px;
   width: 200px;
   display: block;
   margin: 20px;
+  color: aliceblue;
 }
 
 img {
@@ -61,6 +63,50 @@ img {
 }
 
 .show-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+}
+
+.show-item {
+  background-color: red;
+  border: dotted black 8px;
+  border-radius: 8px;
+  height: 300px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.show-box {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+}
+
+.candy-list {
+  background-color: #b5838d;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+}
+
+.candy {
+  background-color: #fcd5ce;
+  border: solid #f8edeb 2px;
+  border-radius: 8px;
+  height: 120px;
+  width: 150px;
+  display: block;
+  margin: 20px;
+}
+
+.house-list {
   background-color: antiquewhite;
   display: flex;
   flex-direction: row;
@@ -68,12 +114,20 @@ img {
   margin: 20px;
 }
 
-.show {
-  background-color: #61dafb;
+.plant {
   border: solid black 2px;
   border-radius: 8px;
-  height: 200px;
-  width: 320px;
+  height: 325px;
+  width: 200px;
   display: block;
   margin: 20px;
+}
+
+.plant img{
+  height: 150px;
+}
+
+.cast {
+  background-color: white;
+  width: 200px;
 }
